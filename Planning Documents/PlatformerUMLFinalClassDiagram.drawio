@@ -1,0 +1,173 @@
+<mxfile host="app.diagrams.net" modified="2024-04-18T23:41:57.742Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="FdSsfYtS-0ebawRWe91V" version="24.2.5" type="onedrive">
+  <diagram name="Page-1" id="VVhy0mJkrWPzRbLaMn7h">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-1" value="Games in C++ - Platformer Game - Final UML Class Diagram" style="text;align=left;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="19" y="20" width="361" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-2" value="Dominik Heiler" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="19" y="49" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;endSize=16;startArrow=open;startFill=0;startSize=16;" edge="1" parent="1" source="l5PsxTXgiISYmCPq3GwO-8" target="l5PsxTXgiISYmCPq3GwO-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="530" />
+              <mxPoint x="350" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=6;endArrow=none;endFill=0;startArrow=block;startFill=0;startSize=16;" edge="1" parent="1" source="l5PsxTXgiISYmCPq3GwO-8" target="l5PsxTXgiISYmCPq3GwO-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="168" y="1182" />
+              <mxPoint x="203" y="1182" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=6;endArrow=none;endFill=0;startArrow=block;startFill=0;startSize=16;" edge="1" parent="1" source="l5PsxTXgiISYmCPq3GwO-8" target="l5PsxTXgiISYmCPq3GwO-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="168" y="1182" />
+              <mxPoint x="653" y="1182" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=6;endArrow=none;endFill=0;startArrow=block;startFill=0;startSize=16;" edge="1" parent="1" source="l5PsxTXgiISYmCPq3GwO-8" target="l5PsxTXgiISYmCPq3GwO-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="168" y="1182" />
+              <mxPoint x="453" y="1182" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=6;endArrow=none;endFill=0;startArrow=block;startFill=0;startSize=16;" edge="1" parent="1" source="l5PsxTXgiISYmCPq3GwO-8" target="l5PsxTXgiISYmCPq3GwO-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="168" y="1182" />
+              <mxPoint x="880" y="1182" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;GameObject&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ sprite_scale : float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ visibility : bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ position : Vector2&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- sprite: sf::Sprite&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- texture: sf::Texture &lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ initaliseSprite(std::string file_path)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getMidPoint() : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ collision(GameObject&amp;amp; other_object) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ collisionPoint(const Vector2&amp;amp; point, const sf::Sprite&amp;amp; other_object) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ updatePos(): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="43" y="399" width="250" height="259" as="geometry" />
+        </mxCell>
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=16;endArrow=none;endFill=0;jumpSize=6;strokeWidth=2;startArrow=diamondThin;startFill=1;startSize=16;" edge="1" parent="1" source="l5PsxTXgiISYmCPq3GwO-13" target="l5PsxTXgiISYmCPq3GwO-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="1232" />
+              <mxPoint x="253" y="1232" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=16;endArrow=none;endFill=0;jumpSize=6;strokeWidth=2;" edge="1" parent="1" source="l5PsxTXgiISYmCPq3GwO-13" target="l5PsxTXgiISYmCPq3GwO-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="1232" />
+              <mxPoint x="703" y="1232" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;endFill=0;endSize=16;" edge="1" parent="1" source="l5PsxTXgiISYmCPq3GwO-13" target="l5PsxTXgiISYmCPq3GwO-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="1232" />
+              <mxPoint x="503" y="1232" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;endFill=0;endSize=16;startArrow=diamondThin;startFill=1;startSize=16;" edge="1" parent="1" source="l5PsxTXgiISYmCPq3GwO-13" target="l5PsxTXgiISYmCPq3GwO-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="1232" />
+              <mxPoint x="930" y="1232" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Game&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;&amp;nbsp;+ max_lives : int&lt;br&gt;&amp;nbsp;+ cam_move_speed : float&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ tilemaps[] : Tilemap&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- window : sf::RenderWindow&lt;/div&gt;&lt;div&gt;&amp;nbsp;- game_view : sf::View&lt;/div&gt;&lt;div&gt;&amp;nbsp;- ui_view : sf::View&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- is_playing : bool&lt;/div&gt;&lt;div&gt;&amp;nbsp;- current_game_state : GameState&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- player : Player&lt;/div&gt;&lt;div&gt;&amp;nbsp;- current_tilemap : int&lt;/div&gt;&lt;div&gt;&amp;nbsp;- score : int&lt;/div&gt;&lt;div&gt;&amp;nbsp;- lives : int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- coins_collected : int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- cam_move_dir : int&lt;/div&gt;&lt;div&gt;&amp;nbsp;- cam_start_pos : Vector2&lt;/div&gt;&lt;div&gt;&amp;nbsp;- cam_move_start : Vector2&lt;/div&gt;&lt;div&gt;&amp;nbsp;- cam_move_target : Vector2&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- game_logo : GameObject&lt;/div&gt;&lt;div&gt;&amp;nbsp;- hud_banner : sf::RectangleShape&lt;/div&gt;&lt;div&gt;&amp;nbsp;- font : sf::Font&lt;/div&gt;&lt;div&gt;&amp;nbsp;- game_text_strings[] : std::string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- game_text_objects : sf::Text&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;div&gt;&amp;nbsp;+ init() : bool&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ initLevels() : bool&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ initTextObj(sf::Text* text,Vector2&amp;amp; position, int scale, sf::Color color) : void&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ initUI() : bool&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ keyPressed(sf::Event event) : void&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ keyReleased(sf::Event event) : void&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ startGame() : void&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ levelWin() : void&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ levelLost() : void&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ respawn() : void&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ changeState(GameState new_state) : void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ setScore(int new_score) : void&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ setLives(int new_lives) : void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ restartGame(): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ update(float dt) : void&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ render() : void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="390" y="278" width="417" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=diamondThin;endFill=1;startSize=16;endSize=16;startArrow=open;startFill=0;" edge="1" parent="1" source="l5PsxTXgiISYmCPq3GwO-16" target="l5PsxTXgiISYmCPq3GwO-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="168" y="470" />
+              <mxPoint x="168" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;endSize=16;" edge="1" parent="1" source="l5PsxTXgiISYmCPq3GwO-16" target="l5PsxTXgiISYmCPq3GwO-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="218" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-16" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Vector2&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ x: float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ y: float&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ operator=: Vector2&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ set(float new_x, float new_y) : void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ operator+=(Vector2&amp;amp; other): Vector2&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ operator*(float scalar): Vector2&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getMagnitude() : double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ normalise() : void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="63" y="113" width="210" height="204" as="geometry" />
+        </mxCell>
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-17" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="369" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-21" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Player&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ max_move_speed : float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ max_acceleration : float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ max_deceleration : float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ max_jump_speed : float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ max_gravity : float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ max_bounce_speed : float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ left_input : bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ right_input : bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ jump_input : bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- col_side : Vector2&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- velocity : Vector2&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- current_decel : float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- current_input : int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- current_anim : Animation*&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ tile_col_check(Vector2&amp;amp; velocity_offset) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ move(float dt) :&amp;nbsp; void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ bounce() : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ resetVelocity() : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ animate(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="103" y="1297" width="250" height="433" as="geometry" />
+        </mxCell>
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=diamondThin;startFill=0;startSize=16;" edge="1" parent="1" source="l5PsxTXgiISYmCPq3GwO-25" target="l5PsxTXgiISYmCPq3GwO-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="678" y="1612" />
+              <mxPoint x="633" y="1612" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-25" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Collectible&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ score_value : float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ col_margin : float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- animation : Animation&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ collect() : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ animate() : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="603" y="1297" width="150" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=diamondThin;startFill=0;startSize=16;" edge="1" parent="1" source="l5PsxTXgiISYmCPq3GwO-27" target="l5PsxTXgiISYmCPq3GwO-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="478" y="1622" />
+              <mxPoint x="593" y="1622" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-27" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Enemy&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ move_amplitude : float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ move_speed : float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ spider_web_width : float&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ collision_margin : float&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ spawn_pos : Vector2&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ spider_web : sf::RectangleShape&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- move_progress : float&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- animation : Animation&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ move() : void&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ respawn() : void&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ animate() : void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="397" y="1297" width="173" height="273" as="geometry" />
+        </mxCell>
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-28" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Tilemap&lt;/b&gt;&lt;/p&gt;&lt;div&gt;&lt;hr&gt;&amp;nbsp;+ player_spawn_pos : Vector2&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ tiles : std::vector&amp;lt;Tile&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ collectibles : std::vector&amp;lt;Collectible&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ enemies : std::vector&amp;lt;Enemy&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ falling_spikes : std::vector&amp;lt;FallingSpike&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;hr&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+&amp;nbsp;loadMap(std::string&amp;amp; tile_file_path, std::string&amp;amp; object_file_path) : void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ createMap(std::string&amp;amp; texture, float tile_size, float tile_scale, int width, int height) : void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ setSolid(int tile_id) : void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ setSpawn(Vector2&amp;amp; pos) : void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;- map_string : std::string&lt;/p&gt;&amp;nbsp;- map_object_string : std::string&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1297" width="234" height="343" as="geometry" />
+        </mxCell>
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-29" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Animation&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ texture : sf::Texture&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ texture_rect : sf::IntRect&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- anim_frames : int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- anim_speed : float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- anim_progress : float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ play() : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ updateAnim() : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ stop() : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="533" y="1698" width="170" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-33" value="0..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="543" y="248" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-34" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="424" y="1573" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-35" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="623" y="1442" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=1;jumpSize=6;startSize=6;endSize=14;" edge="1" parent="1" source="l5PsxTXgiISYmCPq3GwO-38" target="l5PsxTXgiISYmCPq3GwO-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-38" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Tile&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ id : int&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ is_solid : bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ sprite : sf::Sprite&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ initGraphics(std::string&amp;amp; texture_path, sf::IntRect area) : void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="807" y="1697" width="200" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="l5PsxTXgiISYmCPq3GwO-43" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1920" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GrSjIQDNkHn8_4dvNafv-1" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1641" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C7CIyDMqGllNCVBNjw01-1" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1078" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C7CIyDMqGllNCVBNjw01-2" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="622" y="1077" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

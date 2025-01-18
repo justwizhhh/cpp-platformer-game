@@ -1,0 +1,62 @@
+Games in C++ - Platformer Game - Rough Planning Notes
+Dominik Heiler
+
+---------------------------------------------------------
+
+Basic Premise:
+
+My platformer game will be called 'Labyrinth', and will take inspiration from early 1980s arcade games in terms of graphics and gameplay.
+The game will involve exploring caverns and temples by jumping on platforms and avoiding numerous traps and enemies. The player must try
+and rack up as much score as possible by exploring further into an infinitely-expanding temple and collecting coins and gems, without
+losing their 3 lives. 
+
+Features I'd like to try and code:
+ - Complex player physics
+   - Inspired by the original Super Mario Bros, with varying acceleration and deceleration properties for the player physics
+   - Lots of float variable toggles for physics
+ - Enemy object class
+   - Multiple types of enemies, each with their own movement pattern(s)
+   - Base class with abstract methods for movement and collision behaviours
+   - Toggles for if the enemy/obstacle merely stuns or actually hurts the player, for gameplay variety
+ - Infinitely-generating levels
+   - Level data stored as chunks, with each chunk containing different tile position data
+   - Every time the player reaches the right side of the screen, they get teleported back to the left side, and a new chunk is generated
+
+---------------------------------------------------------
+
+Main game objects (might not all be implemented):
+ - Player Character
+ - Collectible (coin, gem, treasure chest, etc.)
+ - Harmful obstacles (spikes, boulders, arrow traps)
+ - Enemies (spiders, and cobras)
+ - Foreground Tiles (these are processed by the player's collision detection)
+ - Background Tiles (are stored separately, so as to not be detected by collision detection)
+
+UI objects:
+ - Titlescreen:
+   - Title Text/Graphic
+   - Menu Option Texts/Graphics
+ - Main game:
+   - Scoreboard Text
+   - Lives Display Text
+   - "Distance Travelled" Text
+	- Showing the player how many level chunks they have explored so far
+ - Pause screen:
+   - 'Paused' Text/Graphic
+   - Menu Option Texts/Graphics
+ - Game over screen:
+   - "Game Over" Text/Graphic
+   - Menu Option Texts/Graphics
+
+
+---------------------------------------------------------
+
+Controls:
+ - WASD Keys - Menu Interaction
+ - Enter - Menu Selection
+
+ - A-D Keys - Horizontal Player Movement
+ - Space Key - Player Jumping
+ - Enter - Pausing/Quitting
+
+---------------------------------------------------------

@@ -1,0 +1,65 @@
+Games in C++ - Platformer Game - Player Movement Pseudo-code
+Dominik Heiler
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+Key variables:
+
+max_move_speed : float
+max_accel : float
+max_jump_speed : float
+gravity : float
+
+velocity : Vector2
+    - This will be the final speed value that sets the player's position at the end of 'update()'
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+horizontal velocity:
+	
+	velocity.x is clamped between (-max_move_speed, max_move_speed)
+
+	if player is using horizontal input:
+	    velocity.x += max_accel * player's current direction
+	else:
+	    velocity.x -= max_accel * direction the player is currently looking at (-1 or 1, this slowly sets the player's horizontal velocity back to 0)
+
+	if colliding with an enemy:
+	    velocity.x = stun_move_speed * direction between player and current enemy (The player gets stunned by getting pushed backwards slightly)
+
+---------------------------------------------------------
+
+gravity and jumping:
+
+	velocity.y -= gravity
+	velocity.y is clamped between (0, max_jump_speed)
+
+	if player is using jump input
+	    if the player is grounded (collision corner points at the bottom of the player are returning true):
+	        velocity.y = max_jump_speed (This will slowly get set back to 0 by subtracting 'gravity' away, creating a curved jump)
+	    	
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+collision detection:
+
+The current idea is that the player will comprise of multiple corner points, with each point being scanned for collisions (subject to change)
+
+corner_points[] : Vector2 (this is the list that will get looped through, to check for collision at each point)
+is_corner_colliding[] : bool
+
+	for each corner point:
+	    check_position = corner point position + current player velocity
+	    if check_position is overlapping with a foreground tile:
+		collision boolean for that corner point is set to true (is_corner_colliding[i] = true)
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+		
